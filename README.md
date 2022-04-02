@@ -11,4 +11,6 @@ common day to day customer visits to outlets, whose prediction can be bettered u
 # Model Building
 * Dickey-Fulher tests suggested stationarity of time-series.
 * Various models are built with and without considering seasonality and a **SARIMAX model with Time Varying Linear Model** performed the best according to rmse values.
+
+
   ![image](https://user-images.githubusercontent.com/102746816/161394842-9b183e75-1938-40b8-8c0a-004374b2ff85.png)
