@@ -6,8 +6,10 @@ common day to day customer visits to outlets, whose prediction can be bettered u
 * About 20-25% of the values are zero for customers which may be an indication of store closure for that day.
 * Impact of the promotion is clearly visible in the grouped boxplots below even across month. However for December, no impact of promotion is visible.
   ![image](https://user-images.githubusercontent.com/102746816/161394662-05df7d9a-e457-4c93-82a8-ea45504016ee.png)
-* Customer count was high when there is a state holiday.
+* Customer count was high when there is a school holiday.
+* 
   ![image](https://user-images.githubusercontent.com/102746816/161394696-aa64d35f-c447-4e76-aae7-ff99434f3553.png)
+  
 # Model Building
 * Dickey-Fulher tests suggested stationarity of time-series.
 * Various models are built with and without considering seasonality and a **SARIMAX model with Time Varying Linear Model** performed the best according to rmse values.
